@@ -100,6 +100,7 @@ public class LoginActivity extends AppCompatActivity {
                     }
                 }
 
+
                 @Override
                 public void onFailure(Call<AccessToken> call, Throwable t) {
                     Log.d("LoginActivity", "Failed");
